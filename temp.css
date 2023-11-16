@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgsLlnmmH8v56-veLx_in0cPM1KOuXrsXKig&usqp=CAU);
+         /* Replace 'background-image.jpg' with the actual path to your image */
+        background-size: cover;
+        color: #333;
+}
+#heading {
+position: absolute;
+top: 5%;
+left: 40%;
+height: 10%;
+}
+#temp {
+    position: absolute;
+    margin-right: 10px;
+    top: 21%;
+    left: 41%;
+    font-size: 120%;
+}
+#uni {
+    position: absolute;
+    margin-right: 10px;
+    top: 21%;
+    left: 52%;
+    font-size: 120%;
+}
+input {
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    top: 24%;
+    left: 41%;
+    border: 2px solid black;
+    height: 5%;
+    width: 9%;
+    border-radius: 17%;
+}
+select {
+    position: absolute;
+    padding: 5px;
+    top: 24%;
+    left: 52%;
+    border: 2px solid black;
+    height: 6.8%;
+    width: 10%;
+    border-radius: 17%;
+}
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+    height: 5%;
+    width: 6%;
+    border-radius: 17%;
+}
+.img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+}
+#result{
+    position: absolute;
+    
+    height: 5%;
+    width: 20%;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 170%;
+    top: 42%;
+    left: 41.5%;
+    
+}
+.convert{
+    position: absolute;
+    left: 44%;
+    top: 34%;
+    border: 2px solid black;
+    border-radius: 17%;
+}
+.reset{
+    position: absolute;
+    left: 53%;
+    top: 34%;
+    border: 2px solid black;
+    border-radius: 17%;
+}
